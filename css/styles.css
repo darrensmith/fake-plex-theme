@@ -3,15 +3,15 @@
 }
 
 .container {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: center;
-  	position: relative; 
-    margin-left: 250px;
-    margin-top: 120px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center;
+	position: relative; 
+  margin-left: 250px;
+  margin-top: 120px;
 }
 
 .box, .bigbox, .widebox {
@@ -134,8 +134,8 @@ a>.bigbox {
 }
 
 .font {
-    font-size: 13px;
-    font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .leftbar>p {
@@ -153,26 +153,26 @@ a>.bigbox {
 }
 
 .search {
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: initial;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    -webkit-appearance: textfield;
-    -webkit-rtl-ordering: logical;
-    cursor: text;
-    font: 400 11px system-ui;
-    padding: 1px;
-    background: hsla(0,0%,100%,.08);
-    border: none;
-    width: 400px;
-    height: 30px;
-    padding-left:30px;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: textfield;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  font: 400 11px system-ui;
+  padding: 1px;
+  background: hsla(0,0%,100%,.08);
+  border: none;
+  width: 400px;
+  height: 30px;
+  padding-left:30px;
 }
 
 .search:focus {
@@ -182,26 +182,26 @@ a>.bigbox {
 }
 
 .searchcontainer {
-    font-size: 13px;
-    font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    display: flex;
-    align-items: center;
-    flex-flow: row nowrap;
-    padding: 4px;
-    height: 30px;
-    border-radius: 4px;
-    background: hsla(0,0%,100%,.08);
-    color: #eee;
-    width: 400px;
-    float:left; 
-    margin-top:10px;
+  font-size: 13px;
+  font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  padding: 4px;
+  height: 30px;
+  border-radius: 4px;
+  background: hsla(0,0%,100%,.08);
+  color: #eee;
+  width: 400px;
+  float:left; 
+  margin-top:10px;
 }
 
 .homeicon {
   margin-top:20px; 
-  margin-left: 65px; 
+  margin-left: 45px; 
   float:left;
 }
 
@@ -216,4 +216,21 @@ a>.bigbox {
 
 .fa-arrow-left {
   color:#666666;
+}
+
+.sign-in-header {
+  width: 500px; 
+  height: 100px; 
+  background-color:black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:200px;
+}
+
+.sign-in-body {
+  width: 500px; 
+  height: 200px; 
+  background-color:#2E2F33;
+  margin-left: auto;
+  margin-right: auto;
 }
