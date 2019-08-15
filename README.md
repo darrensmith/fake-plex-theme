@@ -1,2 +1,4 @@
-# fake-plex-theme
-Fake Plex Theme (HTML/CSS)
+## media-server-theme
+
+Media Server HTML Theme
+
