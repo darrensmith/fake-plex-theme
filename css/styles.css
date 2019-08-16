@@ -1,5 +1,7 @@
 .home {
 	background: #44555E;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .container {
@@ -12,6 +14,15 @@
 	position: relative; 
   margin-left: 250px;
   margin-top: 120px;
+  width: 100%;
+}
+
+.container2 {
+  display:block;
+  position: relative; 
+  margin-left: 250px;
+  margin-top: 120px;
+  width: 80%;
 }
 
 .box, .bigbox, .widebox {
@@ -76,7 +87,7 @@ a>.bigbox {
 
 .lefttitle {
   height: 60px;
-  width: 270px;
+  width: 278px;
   background-color: #293339;
   margin: 0px;
   margin-left: -20px;
@@ -114,6 +125,7 @@ a>.bigbox {
   display: flex;
   flex-direction: row;
   height: 100%;
+  width: 100%;
 }
 
 .leftbar {
@@ -136,6 +148,7 @@ a>.bigbox {
 .font {
   font-size: 13px;
   font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: white;
 }
 
 .leftbar>p {
@@ -173,12 +186,14 @@ a>.bigbox {
   width: 400px;
   height: 30px;
   padding-left:30px;
+  color: white;
 }
 
 .search:focus {
   outline-width: 0;
   transition: background-color 0.2s,color 0.2s;
   background-color: white;
+  color: #333333;
 }
 
 .searchcontainer {
@@ -229,8 +244,75 @@ a>.bigbox {
 
 .sign-in-body {
   width: 500px; 
-  height: 200px; 
+  height: 250px; 
   background-color:#2E2F33;
   margin-left: auto;
   margin-right: auto;
+}
+
+.body-title {
+  margin-left: 30px;
+  margin-top: 40px;
+  color: white;
+  font-size: 21px;
+  font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+  position: relative;
+}
+
+.body-strip {
+  margin-top: 20px;
+  margin-left: 25px;
+  background-color: #3A424A;
+  height: 50px;
+  width: 90%;
+  display: block;
+  position: relative;
+}
+
+.body-form {
+  margin-left: 25px;
+  width: 90%;
+  display: block;
+  position: relative;
+  clear: both;
+}
+
+.form-field {
+  display: block;
+  position: relative;
+  clear:both;
+  padding-top: 50px;
+}
+
+.form-group {
+  float: left;
+  position: relative;
+  display: flex;
+}
+
+.form-group>.form-field {
+  margin-right: 20px;
+}
+
+.save-button {
+  color: #fff;
+  background-color: #cc7b19;
+  border-color: #cc7b19;
+  padding: 10px 18px;
+  font-size: 16px;
+  line-height: 1.33;
+  border-radius: 3px;
+}
+
+.save-button:hover {
+  background-color: hsla(0,0%,100%,.25);
+  background-color: #dd7b19;
+  cursor: pointer;
+}
+
+select:hover {
+  cursor: pointer;
 }
