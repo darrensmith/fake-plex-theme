@@ -59,7 +59,11 @@ a>.bigbox {
 
 .logo {
   text-align:center; 
-  padding-top:90px;
+  padding-top:20px;
+}
+
+.logo>img {
+  width: 200px;
 }
 
 .topbar {
@@ -149,6 +153,12 @@ a>.bigbox {
   font-size: 13px;
   font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
   color: white;
+}
+
+.font2 {
+  font-size: 16px;
+  font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: black;
 }
 
 .leftbar>p {
